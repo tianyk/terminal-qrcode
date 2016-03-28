@@ -18,11 +18,9 @@ Examples
 --------
 A simple server side test...
 ```javascript
-var QRCode = require('qrcode');
+var QRCode = require('terminal-qrcode');
     
-QRCode.toDataURL('i am a pony!',function(err,url){
-    console.log(url);
-});
+QRCode.drawText('i am a pony!',function(err){});
 ```
 
 In your terminal if you install globally...
