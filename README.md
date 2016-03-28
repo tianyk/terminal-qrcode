@@ -1,5 +1,7 @@
 [![Build Status](https://secure.travis-ci.org/soldair/node-qrcode.png)](http://travis-ci.org/soldair/node-qrcode)
 
+**Forked from [soldair/node-qrcode](https://github.com/soldair/node-qrcode), remove canvas module only support draw in your terminal.**
+
 
 node-qrcode
 =
@@ -57,25 +59,25 @@ Server Side API
 ```javascript
 QRCode.draw(text, [optional options], cb(error,canvas));
 ```
-Returns a node canvas object see https://github.com/LearnBoost/node-canvas for all of the cool node things you can do. Look up the canvas api for the other cool things.
+~~Returns a node canvas object see https://github.com/LearnBoost/node-canvas for all of the cool node things you can do. Look up the canvas api for the other cool things.~~
 ```javascript
 QRCode.toDataURL(text, [optional options], cb(error,dataURL));
 ```
-Returns mime image/png data url for the 2d barcode.
+~~Returns mime image/png data url for the 2d barcode.~~
 ```javascript
 QRCode.save(path, text, [optional options] , cb(error,written));
 ```
-Saves png to the path specified returns bytes written.
+~~Saves png to the path specified returns bytes written.~~
 ```javascript    
 QRCode.drawText(text, [optional options],cb)
 ```
 Returns an ascii representation of the qrcode using unicode characters and ansi control codes for background control.
- ```javascript   
-QRCode.drawBitArray(text, [optional options], cb(error,bits,width));
-```
+ 
+~~QRCode.drawBitArray(text, [optional options], cb(error,bits,width));~~
+```javascript  
 Returns an array with each value being either 0 light or 1 dark and the width of each row.
 This is enough info to render a qrcode any way you want. =)
-
+```
 
 Options
 ---------
