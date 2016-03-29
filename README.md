@@ -1,3 +1,7 @@
+## Deprecated
+Please use [qrcode-terminal](github.com/gtanner/qrcode-terminal).
+
+
 ### Forked from [soldair/node-qrcode](https://github.com/soldair/node-qrcode), remove canvas module only support draw in your terminal.
 
 terminal-qrcode

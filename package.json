@@ -1,6 +1,6 @@
 {
   "name": "terminal-qrcode",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "terminal-qrcode",
   "main": "qrcode.js",
   "dependencies": {
